@@ -348,7 +348,7 @@ async function run() {
           if (doDiff && baselineDir) {
             const baselinePath = path.join(baselineDir, filename);
             const diffPath = path.join(outDir, `diff_${filename}`);
-            const diffResult = compareImages(baselinePath, destPath, diffPath);
+            const diffResult = await compareImages(baselinePath, destPath, diffPath);
             targetResult.diff = diffResult;
 
             if (diffResult.isNew) {
