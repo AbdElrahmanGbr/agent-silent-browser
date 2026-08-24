@@ -2,6 +2,7 @@
 
 > **Zero-Interruption, In-Memory Headless Visual Testing, Pixel Diffing, and Accessibility Auditing for AI Coding Agents and Developers.**
 
+[![npm version](https://img.shields.io/npm/v/agent-silent-browser.svg?color=cb3837&logo=npm)](https://www.npmjs.com/package/agent-silent-browser)
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg)](https://nodejs.org)
 [![Headless](https://img.shields.io/badge/Chromium-New%20Headless-blue.svg)](https://developer.chrome.com/docs/chromium/new-headless)
