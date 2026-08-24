@@ -4,8 +4,8 @@
   "description": "Zero-interruption, in-memory headless browser visual testing, pixel diffing, and accessibility auditing for AI coding agents and developers.",
   "main": "lib/index.js",
   "bin": {
-    "silent-browser": "./bin/cli.js",
-    "headless-test": "./bin/cli.js"
+    "silent-browser": "bin/cli.js",
+    "headless-test": "bin/cli.js"
   },
   "keywords": [
     "ai-agent",
@@ -23,7 +23,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AbdElrahmanGbr/agent-silent-browser.git"
+    "url": "git+https://github.com/AbdElrahmanGbr/agent-silent-browser.git"
   },
   "dependencies": {
     "axe-core": "^4.10.2",
