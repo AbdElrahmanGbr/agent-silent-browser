@@ -1,0 +1,38 @@
+{
+  "name": "agent-silent-browser",
+  "version": "1.0.0",
+  "description": "Zero-interruption, in-memory headless browser visual testing, pixel diffing, and accessibility auditing for AI coding agents and developers.",
+  "main": "lib/index.js",
+  "bin": {
+    "silent-browser": "./bin/cli.js",
+    "headless-test": "./bin/cli.js"
+  },
+  "keywords": [
+    "ai-agent",
+    "antigravity",
+    "claude-code",
+    "cursor",
+    "headless-chrome",
+    "visual-regression",
+    "pixelmatch",
+    "accessibility",
+    "axe-core",
+    "zero-interruption"
+  ],
+  "author": "AbdElrahman Gbr <abdelrahman.gbr.os@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbdElrahmanGbr/agent-silent-browser.git"
+  },
+  "dependencies": {
+    "axe-core": "^4.10.2",
+    "js-yaml": "^4.1.0",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0",
+    "puppeteer-core": "^24.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
