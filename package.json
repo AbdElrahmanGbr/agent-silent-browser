@@ -1,6 +1,6 @@
 {
   "name": "agent-silent-browser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zero-interruption, in-memory headless browser visual testing, pixel diffing, and accessibility auditing for AI coding agents and developers.",
   "main": "lib/index.js",
   "bin": {
